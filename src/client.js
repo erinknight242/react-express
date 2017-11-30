@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Board from './Board.jsx';
 
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
+ReactDOM.render(<Board />,
   document.getElementById('root')
 );
